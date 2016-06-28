@@ -6,7 +6,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test --require ./test/globals.js",
+    "test": "mocha test --require ./test/globals.js",
     "develop": "npm run test -- -w"
   },
   "dependencies": {
