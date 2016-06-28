@@ -1,4 +1,4 @@
-# Oahu JS
+# Oahu JS [![CircleCI](https://circleci.com/gh/daime/oahujs.svg?style=svg)](https://circleci.com/gh/daime/oahujs)
 
 Oahu orchestrates tasks
 
