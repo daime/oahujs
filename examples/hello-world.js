@@ -1,10 +1,4 @@
-# Oahu JS
-
-Oahu orchestrates tasks
-
-## Usage
-
-```javascript
+/* eslint no-console: "off" */
 'use strict';
 
 const oahu = require('../index');
@@ -33,4 +27,3 @@ oahu.pipeline(
 .catch(err => {
     console.error(err, ':(');
 });
-```

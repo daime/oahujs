@@ -1,5 +1,19 @@
 {
   "name": "oahujs",
   "version": "0.1.0",
-  "description": "Oahu orchestrates tasks"
+  "description": "Oahu orchestrates tasks",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test --require ./test/globals.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  }
 }
