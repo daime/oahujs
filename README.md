@@ -7,7 +7,7 @@ Oahu orchestrates tasks
 ```javascript
 'use strict';
 
-const oahu = require('../index');
+const oahu = require('oahu');
 
 oahu.pipeline(
     backdoor => {
