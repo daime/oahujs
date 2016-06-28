@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "mocha": true
+    },
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+		],
+        "prefer-rest-params": [
+            "off"
+        ]
+    }
+}
