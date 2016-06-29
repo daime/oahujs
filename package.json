@@ -6,7 +6,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test --require ./test/globals.js"
+    "test": "mocha test --require ./test/globals.js",
+    "watch": "npm run test -- -w"
   },
   "dependencies": {
     "bluebird": "^3.4.1"
