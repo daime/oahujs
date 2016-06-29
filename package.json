@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "mocha test --require ./test/globals.js",
-    "develop": "npm run test -- -w"
+    "watch": "npm run test -- -w"
   },
   "dependencies": {
     "bluebird": "^3.4.1"
