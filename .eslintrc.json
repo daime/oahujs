@@ -8,11 +8,11 @@
     },
     "rules": {
         "indent": [
-            2,
+            "error",
             4
 		],
         "prefer-rest-params": [
-            0
+            "off"
         ]
     }
 }
