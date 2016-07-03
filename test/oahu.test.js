@@ -20,6 +20,18 @@ describe('oahu', () => {
             .should.become('ok')
         );
 
+        it('should resolve sync array tasks', () =>
+            oahu.pipeline([
+                backdoor => {
+                    backdoor.next();
+                },
+                backdoor => {
+                    backdoor.done('ok');
+                },
+            ])
+            .should.become('ok')
+        );
+
         it('should resolve async tasks', () =>
             oahu.pipeline(
                 backdoor => {

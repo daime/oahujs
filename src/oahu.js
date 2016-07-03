@@ -17,7 +17,8 @@ function backdoor() {
 }
 
 function pipeline() {
-    const handlers = Array.from(arguments);
+    const arg0 = arguments[0];
+    const handlers = Array.isArray(arg0) ? arg0 : Array.from(arguments);
     const bd = backdoor();
     let finished = false;
     let reply;
