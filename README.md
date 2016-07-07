@@ -1,4 +1,4 @@
-# Oahu JS [![CircleCI](https://circleci.com/gh/daime/oahujs.svg?style=svg)](https://circleci.com/gh/daime/oahujs)
+# Oahu JS [![CircleCI](https://circleci.com/gh/daime/oahujs.svg?style=svg)](https://circleci.com/gh/daime/oahujs) [![Code Climate](https://codeclimate.com/github/daime/oahujs/badges/gpa.svg)](https://codeclimate.com/github/daime/oahujs)
 
 Oahu orchestrates tasks
 
