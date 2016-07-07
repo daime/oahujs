@@ -1,3 +1,14 @@
 machine:
   node:
     version: 4.4.5
+
+dependencies:
+  override:
+    - npm install
+    - npm install -g codeclimate-test-reporter
+
+test:
+  override:
+    - npm run coverage
+  post:
+    - CODECLIMATE_REPO_TOKEN=${CODECLIMATE_REPO_TOKEN} codeclimate-test-reporter < ./coverage/lcov.info
